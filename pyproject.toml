@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "panel-standard-errors"
+version = "0.1.0"
+description = "Companion code for the \"Estimating standard errors in panel data with Python and linearmodels\" video by Vincent Codes Finance"
+authors = ["Vincent Grégoire <vincent@codes.finance>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+linearmodels = "^5.4"
+jupyter = "^1.0.0"
+pyarrow = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
